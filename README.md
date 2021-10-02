@@ -6,8 +6,6 @@
 
 # Many Thanks to all the `Stargazers` who has supported this project with stars(⭐)
 
-[![Stargazers repo roster for @atapas/shopnote](https://reporoster.com/stars/atapas/shopnote)](https://github.com/atapas/shopnote/stargazers)
-
 <p align="center">
   <a href="https://shopnote.netlify.app/">
     <img alt="shopnote" src="./site/screen.png"/>
