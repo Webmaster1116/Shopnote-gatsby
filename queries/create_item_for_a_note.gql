@@ -1,0 +1,18 @@
+mutation {
+  createItem(data: {
+    name: "Bed Cover"
+    urgent: true
+    checked: false
+    note: {
+      connect: "281164037832573441"
+    }
+  }) {
+    _id
+    name
+    urgent
+    checked
+    note {
+      name
+    }
+  }
+}

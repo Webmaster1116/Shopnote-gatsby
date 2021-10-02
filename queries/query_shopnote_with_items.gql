@@ -1,0 +1,17 @@
+query {
+	allShopNotes {
+  	data {
+    	_id
+		name
+		description
+		updatedAt
+		items {
+			data {
+				name,
+				checked,
+				urgent
+			}
+		}
+  	}
+  }
+} 

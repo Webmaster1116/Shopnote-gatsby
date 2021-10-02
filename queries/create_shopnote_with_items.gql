@@ -1,0 +1,23 @@
+mutation {
+  createShopNote(data: {
+    name: "My Shopping List"
+    description: "This is my today's list to buy from Tom's shop"
+    items: {
+      create: [
+        { name: "Butther - 1 pk", urgent: true }
+        { name: "Milk - 2 ltrs", urgent: false }
+        { name: "Meat - 1lb", urgent: false }
+      ]
+    }
+  }) {
+    _id
+    name
+    description
+    items {
+      data {
+        name,
+        urgent
+      }
+    }
+  }
+}

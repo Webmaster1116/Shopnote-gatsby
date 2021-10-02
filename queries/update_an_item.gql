@@ -1,0 +1,12 @@
+mutation {
+  updateItem(id: "281163892268204551", data: {
+    name: "Laddosss"
+    urgent: false
+    checked: false
+  }) {
+    _id
+    name
+    checked
+    urgent
+  }
+}

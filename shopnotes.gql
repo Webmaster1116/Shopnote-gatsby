@@ -1,0 +1,17 @@
+type ShopNote {
+  name: String!
+  description: String
+  updatedAt: Time
+  items: [Item!] @relation
+}
+
+type Item {
+  name: String!
+  urgent: Boolean
+  checked: Boolean
+  note: ShopNote!
+}
+
+type Query {
+  allShopNotes: [ShopNote!]!
+}
